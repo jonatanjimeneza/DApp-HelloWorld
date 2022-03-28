@@ -8,6 +8,7 @@ import { Card } from 'react-bootstrap';
 
 
 class App extends Component {
+  //función para cargar las funciones async creadas.
   async componentWillMount(){
     //Cargar de Web3.0
     await this.loadWeb3()
@@ -89,7 +90,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            DApp Hello World
+            DApp HelloWorld by JJA
           </a>
           <ul className='navbar-nav-px-3'>
             <li className='nav-item text-nowrap d-none d-sm-non d-sm-block'>
@@ -101,6 +102,7 @@ class App extends Component {
 
           </ul>
         </nav>
+        &nbsp;
         <div className="container-fluid mt-5">
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
@@ -114,10 +116,10 @@ class App extends Component {
                 </a>
                 <h1>DApp - Hello World</h1>
                 &nbsp;
-
                 <Card>
                 <Card.Body>{this.state.Hello_World}</Card.Body>
                 </Card>
+
               </div>
             </main>
           </div>
