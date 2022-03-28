@@ -1,2 +1,3 @@
-# DApp
- STARTER KIT para Creación de Aplicaciones Descentralizadas by Jonatan Jiménez
+# DApp Hello World
+ 
+ Creación de la primera aplicación descentralizada (DApp) basada en el smart contract Hello World de Solidity.
