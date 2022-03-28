@@ -1,2 +1,2 @@
-# DApp-HelloWorld
-Creación de nuestra primera Aplicación Descentralizada (DApp) utilizando el smart contract  Hello World de Solidity.
+# DApp
+ STARTER KIT para Creación de Aplicaciones Descentralizadas by Jonatan Jiménez
