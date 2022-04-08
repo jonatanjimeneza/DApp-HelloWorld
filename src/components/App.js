@@ -4,7 +4,6 @@ import './App.css';
 import Web3 from 'web3'
 //import web3 from '../ethereum/web3'
 import contrato_smarcontract from '../abis/HelloWorld.json'
-import { Card } from 'react-bootstrap';
 
 
 class App extends Component {
@@ -116,9 +115,9 @@ class App extends Component {
                 </a>
                 <h1>DApp - Hello World</h1>
                 &nbsp;
-                <Card>
-                <Card.Body>{this.state.Hello_World}</Card.Body>
-                </Card>
+                
+                <ul>{this.state.Hello_World}</ul>
+                
 
               </div>
             </main>
